@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.container-fluid {
+  margin-top: 50px;
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+}
+.top {
+  height: 33%;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  font-size: 80px;
+}
+.middle {
+  height: 33%;
+  margin-top: 20px;
+  font-size: 85px;
+}
+.bottom {
+  height: 33%;
+  display: flex;
+  justify-content: right;
+  margin-top: 70px;
+  font-size: 80px;
+}
